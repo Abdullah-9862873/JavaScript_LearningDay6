@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: #333;
+    color: #efefef;
+}
+
+button{
+    padding: 1rem 2rem;
+    font-size: 1.4 rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background 0.4s;
+}
+
+button:hover{
+    background-color: rgb(126, 119, 119);
+}

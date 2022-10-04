@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <script src="file102___(DOM).js" defer></script> -->
+    <!-- <script src="file103___(Get_Element_By_Id).js" defer></script> -->
+    <!-- <script src="file104___(Query_selector).js" defer></script> -->
+    <!-- <script src="file105___(textContent_and_innerText).js" defer></script> -->
+    <!-- <script src="file106___(Change_the_style_of_elemets).js" defer></script> -->
+    <!-- <script src="file107___(get_and_set_attribute).js" defer></script> -->
+    <!-- <script src="file108___(getElementByClassName _and_querySelectorAll).js" defer></script> -->
+    <!-- <script src="file109___(Iterate_Elements).js" defer></script> -->
+    <!-- <script src="file110___(Inner_html).js" defer></script> -->
+    <!-- <script src="file112___(ClassList_add_remove_toggleClasses).js" defer></script> -->
+    <!-- <script src="file113___(Add_HTML_Elements_Using_JavaScript).js" defer></script> -->
+    <!-- <script src="file114___(createElement_append_prepend_remove_before_after).js" defer></script> -->
+    <!-- <script src="file115___(insertAdjacentHTML).js" defer></script> -->
+    <!-- <script src="file116___(Clone_nodes).js" defer></script> -->
+    <!-- <script src="file117___(appendChild_insertBefore_replaceChild_removeChild).js" defer></script> -->
+    <!-- <script src="file118___(static_list_vs_Live_list).js" defer></script> -->
+    <!-- <script src="file119___(Get_Dimensions_of_element).js" defer></script> -->
+    <!-- <script src="file120___(Intro_to_Events).js" defer></script> -->
+    <!-- <script src="file121___(this_in_events).js" defer></script> -->
+    <!-- <script src="file127___(KeyPress_and_Mousseover).js" defer></script> -->
+    <script src="file129___(Short_project).js" defer></script>
+    
+    
+    <title>My Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <h1 class="logo">Website</h1>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="">Todo</a></li>
+          <li class="nav-item"><a href="">Sign Up</a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h2 id="main-heading">
+          Manage your tasks <span style="display: none;">Hello</span>
+        </h2>
+        <button class="btn btn-headline">Learn More</button>
+      </div>
+    </header>
+
+    <section class="section-todo container">
+      <h2>Your plan for today ?</h2>
+      <!-- todo form  -->
+      <form class="form-todo">
+        <input type="text" name="" id="" placeholder="Add Todo" />
+        <input type="submit" value="Add Todo" class="btn" />
+      </form>
+
+      <ul class="todo-list">
+        <li class="todo-lists-li">
+          <span class="text">Do this do that</span>
+          <div class="todo-buttons">
+            <button class="todo-btn done">Done</button>
+            <button class="todo-btn remove">Remove</button>
+          </div>
+        </li>
+        <!-- <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li> -->
+      </ul>
+    </section>
+
+    <section class="section-signup container">
+      <h2>Sign Up</h2>
+      <form class="signup-form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" name="confirmPassword" id="confirmPassword" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="about">About Yourself</label>
+          <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
